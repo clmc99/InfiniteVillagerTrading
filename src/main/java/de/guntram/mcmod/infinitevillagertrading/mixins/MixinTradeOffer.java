@@ -18,7 +18,6 @@ public class MixinTradeOffer {
     
     @Inject(method = "<init>*", at = @At("RETURN"))
     public void forceHighMaxUseCount(CallbackInfo ci) {
-        this.maxUses = 1_000_000;
         this.demandBonus = 0;
     }
     
