@@ -62,7 +62,6 @@ public class MixinTradeOffer {
 //        System.out.println("Name: "+ Thread.currentThread().getName());
         // is this REALLY the only way when there's no world to check world.isRemote() ??
         if (Thread.currentThread().getName().equals("Server thread")) {
-            this.maxUses = 1_000_000;
             this.demandBonus = 0;
         }
 //        System.out.println("Before: maxUses="+this.maxUses+", demandBonus= "+this.demandBonus);
