@@ -1,6 +1,6 @@
 # InfiniteVillagerTrading
 
-This mod removes the max counter from villagers, allowing you to trade with them as often as you want to. Your villagers will never run out out stuff to trade, and never have to restock - as long as you have trade goods or emeralds, villagers will want to trade for them.
+This modified version of InfiniteVillagerTrading removes the demand mechanic from villager trading (like the original), but does not allow infinite trading.
 
  
 
